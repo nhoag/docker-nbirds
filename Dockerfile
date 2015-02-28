@@ -1,9 +1,9 @@
-# DOCKER-VERSION	1.4.1
+# DOCKER-VERSION	1.5.0
 
 FROM nhoag/nodejs
 MAINTAINER Nathaniel Hoag, info@nathanielhoag.com
 
-ENV NB_VERSION 0.1.6
+ENV NB_VERSION 0.1.7
 ENV NB_DIR /opt/notable-birds-${NB_VERSION}
 ENV NB_ARCHIVE https://github.com/nhoag/notable-birds/archive/${NB_VERSION}.tar.gz
 
